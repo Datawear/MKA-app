@@ -1,0 +1,11 @@
+{
+ "android": {
+     "release": {
+         "keystore":"/Users/chielwester/Documents/mobileapps/androidkeystore",
+         "storePassword":"holderandroid",
+         "alias":"ChielW",
+         "password":"holderandroid",
+         "keystoreType":""
+       }
+   }
+}

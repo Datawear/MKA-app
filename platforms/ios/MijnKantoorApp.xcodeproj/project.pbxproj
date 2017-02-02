@@ -200,7 +200,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 8AF3VTERJL;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -310,8 +310,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.mijnkantoorapp;
 				PRODUCT_NAME = MijnKantoorApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "acf7d69f-0572-4b1c-a4c0-54f98778c6cf";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.bettyblocks.mijnkantoorapp";
 			};
 			name = Debug;
 		};
@@ -324,7 +324,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -334,8 +334,8 @@
 				INFOPLIST_FILE = "MijnKantoorApp/MijnKantoorApp-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.mijnkantoorapp;
 				PRODUCT_NAME = MijnKantoorApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "acf7d69f-0572-4b1c-a4c0-54f98778c6cf";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.bettyblocks.mijnkantoorapp";
 			};
 			name = Release;
 		};
