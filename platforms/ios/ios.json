@@ -4,16 +4,88 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Badge\"><param name=\"ios-package\" value=\"APPBadge\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BackgroundMode\"><param name=\"ios-package\" value=\"APPBackgroundMode\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIBackgroundModes": [
+                        {
+                            "xml": "<array><string>audio</string></array>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.bettyblocks.MijnKantoorApp"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
+        },
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
         }
     },
     "dependent_plugins": {},
-    "modules": [],
+    "modules": [
+        {
+            "id": "cordova-plugin-badge.Badge",
+            "file": "plugins/cordova-plugin-badge/www/badge.js",
+            "pluginId": "cordova-plugin-badge",
+            "clobbers": [
+                "plugin.notification.badge",
+                "cordova.plugins.notification.badge"
+            ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "id": "cordova-plugin-background-mode.BackgroundMode",
+            "file": "plugins/cordova-plugin-background-mode/www/background-mode.js",
+            "pluginId": "cordova-plugin-background-mode",
+            "clobbers": [
+                "cordova.plugins.backgroundMode",
+                "plugin.backgroundMode"
+            ]
+        }
+    ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.3.0"
+        "cordova-plugin-whitelist": "1.3.0",
+        "cordova-plugin-app-event": "1.2.0",
+        "cordova-plugin-badge": "0.7.4",
+        "cordova-plugin-device": "1.1.4",
+        "cordova-plugin-background-mode": "0.7.2"
     }
 }
