@@ -7,16 +7,20 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.bettyblocks.MijnKantoorApp"
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
         },
         "cordova-plugin-badge": {
             "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
         },
-        "cordova-plugin-background-mode": {
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
         },
-        "cordova-plugin-device": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "312504740469",
             "PACKAGE_NAME": "com.bettyblocks.mijnkantoorapp"
         }
     },

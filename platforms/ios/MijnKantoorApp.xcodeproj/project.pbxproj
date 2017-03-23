@@ -8,19 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		0C8638EC526B44CFAE53B225 /* APPMethodMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFDFF3BB37F4B448E756098 /* APPMethodMagic.m */; };
+		0D33BF49AFE2DC3177CE2429 /* libPods-MijnKantoorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFA29E2099C9E2480BC74B7 /* libPods-MijnKantoorApp.a */; };
+		0F1674EBDFCE461D815E8174 /* AppDelegate+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D8899EED4B47A42C23B3 /* AppDelegate+APPAppEvent.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		30C8009320AE4C08A94BBCC2 /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971273309B942F6978BBD82 /* UIApplication+APPBadge.m */; };
-		4056FD00BB8C4C9F83B40EC9 /* APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8EE446DF84BC189275B30 /* APPBadge.m */; };
-		6633C33E0A394AF0BCAEC1DA /* AppDelegate+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6D49A65234723925C7638 /* AppDelegate+APPAppEvent.m */; };
-		83D6C87BC195468094AADB85 /* APPBackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E924D330573C49859F759652 /* APPBackgroundMode.m */; };
-		915200A08DA44D05A6106574 /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAC3F8FE84884C999E614FB4 /* appbeep.wav */; };
-		C6C6981C43CF4F60A8749C38 /* CDVPlugin+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F17273D0814988B362CA5D /* CDVPlugin+APPAppEvent.m */; };
-		DE210B3CB3B844CEA90CA281 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6A90F380E4A489D120816 /* CDVDevice.m */; };
+		32243329804640C49EA9F5C9 /* APPMethodMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3AE83F1444F6DBD052C4D /* APPMethodMagic.m */; };
+		3881FBB299014DC19CBE03F6 /* APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DF34ED6BFF4976BE0696AC /* APPBadge.m */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		71DB9E518B3E42DC9CD6544B /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5ED40BC14E95BFA532D8 /* PushPlugin.m */; };
+		7EA42B984C45432CB02B9ED4 /* CDVPlugin+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C01B7E0AAE74C1B9E7ED94D /* CDVPlugin+APPAppEvent.m */; };
+		9FDD499585394C1C8DE9091D /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9584631341DB4C65918D4A3C /* AppDelegate+notification.m */; };
+		A0CC5F287C5140DF8D0372A3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 444ECE9D0C614880A42FC8D1 /* libz.tbd */; };
+		A2E8F9FC75FD418EBA5CBF9B /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4EF96477247C995789BF5 /* appbeep.wav */; };
+		BFEBA3FE1C7D47D58C50F8F9 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD78CE31D1748C18992F744 /* CDVDevice.m */; };
+		CF5BF9C000D44060954EB05C /* APPBackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = F071DD87D50F4613BCC60BC4 /* APPBackgroundMode.m */; };
+		E70F87F77DD84D5EA7D68A7C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650867DFB93F4365970069DF /* AddressBook.framework */; };
+		F0C4CCBAFC1943709C0B678D /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DCF8E415F41968A9C2EF3 /* UIApplication+APPBadge.m */; };
+		FBB87BF935374001BDF8474D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA5C7BFA8B4D6AAC00C14C /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,15 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01439C23EB1B4E70A494B38A /* UIApplication+APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIApplication+APPBadge.h"; path = "cordova-plugin-badge/UIApplication+APPBadge.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MijnKantoorApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0971273309B942F6978BBD82 /* UIApplication+APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+APPBadge.m"; path = "cordova-plugin-badge/UIApplication+APPBadge.m"; sourceTree = "<group>"; };
-		0EB6D49A65234723925C7638 /* AppDelegate+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+APPAppEvent.m"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.m"; sourceTree = "<group>"; };
+		04450F28A1E64967915829FC /* APPMethodMagic.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPMethodMagic.h; path = "cordova-plugin-background-mode/APPMethodMagic.h"; sourceTree = "<group>"; };
+		1B645577985F46A588B8BF21 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* MijnKantoorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MijnKantoorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B51C2F1DF7C494699BEB69A /* APPBackgroundMode.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBackgroundMode.h; path = "cordova-plugin-background-mode/APPBackgroundMode.h"; sourceTree = "<group>"; };
+		2B3DCF8E415F41968A9C2EF3 /* UIApplication+APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+APPBadge.m"; path = "cordova-plugin-badge/UIApplication+APPBadge.m"; sourceTree = "<group>"; };
+		2DD4EF96477247C995789BF5 /* appbeep.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = appbeep.wav; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -59,23 +66,32 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* MijnKantoorApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MijnKantoorApp-Prefix.pch"; sourceTree = "<group>"; };
-		3CB3C58EA2D047958795301D /* APPMethodMagic.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPMethodMagic.h; path = "cordova-plugin-background-mode/APPMethodMagic.h"; sourceTree = "<group>"; };
-		46D8EE446DF84BC189275B30 /* APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBadge.m; path = "cordova-plugin-badge/APPBadge.m"; sourceTree = "<group>"; };
-		4EB51D9373294109A2695A65 /* APPAppEventDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPAppEventDelegate.h; path = "cordova-plugin-app-event/APPAppEventDelegate.h"; sourceTree = "<group>"; };
-		59F17273D0814988B362CA5D /* CDVPlugin+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVPlugin+APPAppEvent.m"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.m"; sourceTree = "<group>"; };
-		786381567AFB4ADA8B5C2B72 /* CDVPlugin+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVPlugin+APPAppEvent.h"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.h"; sourceTree = "<group>"; };
-		835A493ADB55498B98A56747 /* AppDelegate+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+APPAppEvent.h"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.h"; sourceTree = "<group>"; };
+		37FF5ED40BC14E95BFA532D8 /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
+		3C01B7E0AAE74C1B9E7ED94D /* CDVPlugin+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVPlugin+APPAppEvent.m"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.m"; sourceTree = "<group>"; };
+		3DD78CE31D1748C18992F744 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		444ECE9D0C614880A42FC8D1 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4B6862F81ED24D58A3C52909 /* APPBackgroundMode.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBackgroundMode.h; path = "cordova-plugin-background-mode/APPBackgroundMode.h"; sourceTree = "<group>"; };
+		4DFA29E2099C9E2480BC74B7 /* libPods-MijnKantoorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MijnKantoorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AA5C7BFA8B4D6AAC00C14C /* libsqlite3.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		63856B11F7714B83AEFE07BD /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
+		650867DFB93F4365970069DF /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6A02BD0120FB414F8BF18F5A /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = MijnKantoorApp/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		75A3AE83F1444F6DBD052C4D /* APPMethodMagic.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPMethodMagic.m; path = "cordova-plugin-background-mode/APPMethodMagic.m"; sourceTree = "<group>"; };
+		7BE8D8899EED4B47A42C23B3 /* AppDelegate+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+APPAppEvent.m"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.m"; sourceTree = "<group>"; };
+		890558A24A5A4CF6AE79E37B /* AppDelegate+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+APPAppEvent.h"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MijnKantoorApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MijnKantoorApp-Info.plist"; path = "MijnKantoorApp/MijnKantoorApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		ADFDFF3BB37F4B448E756098 /* APPMethodMagic.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPMethodMagic.m; path = "cordova-plugin-background-mode/APPMethodMagic.m"; sourceTree = "<group>"; };
-		AFD6A90F380E4A489D120816 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
-		BAC3F8FE84884C999E614FB4 /* appbeep.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = appbeep.wav; sourceTree = "<group>"; };
-		E924D330573C49859F759652 /* APPBackgroundMode.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBackgroundMode.m; path = "cordova-plugin-background-mode/APPBackgroundMode.m"; sourceTree = "<group>"; };
-		EA9EE9B5BF7249E6BC144CB3 /* APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
+		9584631341DB4C65918D4A3C /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
+		9832EDB6F59A43C0BF688DA2 /* CDVPlugin+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVPlugin+APPAppEvent.h"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.h"; sourceTree = "<group>"; };
+		B7A93C936525444B8C299265 /* UIApplication+APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIApplication+APPBadge.h"; path = "cordova-plugin-badge/UIApplication+APPBadge.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F071DD87D50F4613BCC60BC4 /* APPBackgroundMode.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBackgroundMode.m; path = "cordova-plugin-background-mode/APPBackgroundMode.m"; sourceTree = "<group>"; };
+		F2D088012E44460B94AEAA95 /* APPAppEventDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPAppEventDelegate.h; path = "cordova-plugin-app-event/APPAppEventDelegate.h"; sourceTree = "<group>"; };
+		F59ACCC5F852497AB44596F6 /* APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
+		F6DF34ED6BFF4976BE0696AC /* APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBadge.m; path = "cordova-plugin-badge/APPBadge.m"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = MijnKantoorApp/config.xml; sourceTree = "<group>"; };
-		F8D8A285641E4009B66E5A54 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				E70F87F77DD84D5EA7D68A7C /* AddressBook.framework in Frameworks */,
+				FBB87BF935374001BDF8474D /* libsqlite3.tbd in Frameworks */,
+				A0CC5F287C5140DF8D0372A3 /* libz.tbd in Frameworks */,
+				0D33BF49AFE2DC3177CE2429 /* libPods-MijnKantoorApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +144,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				36FDD4F0736C7F3188D2C4FC /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -145,7 +166,8 @@
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* MijnKantoorApp-Info.plist */,
-				BAC3F8FE84884C999E614FB4 /* appbeep.wav */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				2DD4EF96477247C995789BF5 /* appbeep.wav */,
 			);
 			name = Resources;
 			path = MijnKantoorApp/Resources;
@@ -154,6 +176,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				650867DFB93F4365970069DF /* AddressBook.framework */,
+				58AA5C7BFA8B4D6AAC00C14C /* libsqlite3.tbd */,
+				444ECE9D0C614880A42FC8D1 /* libz.tbd */,
+				4DFA29E2099C9E2480BC74B7 /* libPods-MijnKantoorApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,25 +205,36 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				0EB6D49A65234723925C7638 /* AppDelegate+APPAppEvent.m */,
-				59F17273D0814988B362CA5D /* CDVPlugin+APPAppEvent.m */,
-				835A493ADB55498B98A56747 /* AppDelegate+APPAppEvent.h */,
-				786381567AFB4ADA8B5C2B72 /* CDVPlugin+APPAppEvent.h */,
-				4EB51D9373294109A2695A65 /* APPAppEventDelegate.h */,
-				46D8EE446DF84BC189275B30 /* APPBadge.m */,
-				0971273309B942F6978BBD82 /* UIApplication+APPBadge.m */,
-				EA9EE9B5BF7249E6BC144CB3 /* APPBadge.h */,
-				01439C23EB1B4E70A494B38A /* UIApplication+APPBadge.h */,
-				AFD6A90F380E4A489D120816 /* CDVDevice.m */,
-				F8D8A285641E4009B66E5A54 /* CDVDevice.h */,
-				E924D330573C49859F759652 /* APPBackgroundMode.m */,
-				ADFDFF3BB37F4B448E756098 /* APPMethodMagic.m */,
-				2B51C2F1DF7C494699BEB69A /* APPBackgroundMode.h */,
-				3CB3C58EA2D047958795301D /* APPMethodMagic.h */,
+				7BE8D8899EED4B47A42C23B3 /* AppDelegate+APPAppEvent.m */,
+				3C01B7E0AAE74C1B9E7ED94D /* CDVPlugin+APPAppEvent.m */,
+				890558A24A5A4CF6AE79E37B /* AppDelegate+APPAppEvent.h */,
+				9832EDB6F59A43C0BF688DA2 /* CDVPlugin+APPAppEvent.h */,
+				F2D088012E44460B94AEAA95 /* APPAppEventDelegate.h */,
+				3DD78CE31D1748C18992F744 /* CDVDevice.m */,
+				1B645577985F46A588B8BF21 /* CDVDevice.h */,
+				F071DD87D50F4613BCC60BC4 /* APPBackgroundMode.m */,
+				75A3AE83F1444F6DBD052C4D /* APPMethodMagic.m */,
+				4B6862F81ED24D58A3C52909 /* APPBackgroundMode.h */,
+				04450F28A1E64967915829FC /* APPMethodMagic.h */,
+				F6DF34ED6BFF4976BE0696AC /* APPBadge.m */,
+				2B3DCF8E415F41968A9C2EF3 /* UIApplication+APPBadge.m */,
+				F59ACCC5F852497AB44596F6 /* APPBadge.h */,
+				B7A93C936525444B8C299265 /* UIApplication+APPBadge.h */,
+				9584631341DB4C65918D4A3C /* AppDelegate+notification.m */,
+				37FF5ED40BC14E95BFA532D8 /* PushPlugin.m */,
+				63856B11F7714B83AEFE07BD /* AppDelegate+notification.h */,
+				6A02BD0120FB414F8BF18F5A /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = MijnKantoorApp/Plugins;
 			sourceTree = SOURCE_ROOT;
+		};
+		36FDD4F0736C7F3188D2C4FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
 			isa = PBXGroup;
@@ -215,10 +252,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MijnKantoorApp" */;
 			buildPhases = (
+				13B5AE0F2C72B2B99A58E772 /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				709EC714E2F389B934E80191 /* [CP] Embed Pods Frameworks */,
+				E651DF6A9D13E66DE975B45F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,11 +276,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 800;
+				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 8AF3VTERJL;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -252,6 +292,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -283,13 +324,29 @@
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
-				915200A08DA44D05A6106574 /* appbeep.wav in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				A2E8F9FC75FD418EBA5CBF9B /* appbeep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		13B5AE0F2C72B2B99A58E772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +362,36 @@
 			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
 			showEnvVarsInLog = 0;
 		};
+		709EC714E2F389B934E80191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnKantoorApp/Pods-MijnKantoorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E651DF6A9D13E66DE975B45F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnKantoorApp/Pods-MijnKantoorApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -315,13 +402,15 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				6633C33E0A394AF0BCAEC1DA /* AppDelegate+APPAppEvent.m in Sources */,
-				C6C6981C43CF4F60A8749C38 /* CDVPlugin+APPAppEvent.m in Sources */,
-				4056FD00BB8C4C9F83B40EC9 /* APPBadge.m in Sources */,
-				30C8009320AE4C08A94BBCC2 /* UIApplication+APPBadge.m in Sources */,
-				DE210B3CB3B844CEA90CA281 /* CDVDevice.m in Sources */,
-				83D6C87BC195468094AADB85 /* APPBackgroundMode.m in Sources */,
-				0C8638EC526B44CFAE53B225 /* APPMethodMagic.m in Sources */,
+				0F1674EBDFCE461D815E8174 /* AppDelegate+APPAppEvent.m in Sources */,
+				7EA42B984C45432CB02B9ED4 /* CDVPlugin+APPAppEvent.m in Sources */,
+				BFEBA3FE1C7D47D58C50F8F9 /* CDVDevice.m in Sources */,
+				CF5BF9C000D44060954EB05C /* APPBackgroundMode.m in Sources */,
+				32243329804640C49EA9F5C9 /* APPMethodMagic.m in Sources */,
+				3881FBB299014DC19CBE03F6 /* APPBadge.m in Sources */,
+				F0C4CCBAFC1943709C0B678D /* UIApplication+APPBadge.m in Sources */,
+				9FDD499585394C1C8DE9091D /* AppDelegate+notification.m in Sources */,
+				71DB9E518B3E42DC9CD6544B /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +434,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -355,11 +443,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MijnKantoorApp/MijnKantoorApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.mijnkantoorapp;
 				PRODUCT_NAME = MijnKantoorApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "76f31f7e-0ba4-4e5d-93f5-8855ec4674bd";
+				PROVISIONING_PROFILE_SPECIFIER = "MijnKantoorApp Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -372,18 +462,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MijnKantoorApp/MijnKantoorApp-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MijnKantoorApp/MijnKantoorApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.mijnkantoorapp;
 				PRODUCT_NAME = MijnKantoorApp;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "18e734b2-0689-461b-b1b5-0821f25ecae4";
+				PROVISIONING_PROFILE_SPECIFIER = "MijnKantoorApp Distribution";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
