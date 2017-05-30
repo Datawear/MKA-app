@@ -43,8 +43,8 @@
     <string/>
     <key>UIBackgroundModes</key>
     <array>
-      <string>audio</string>
       <string>remote-notification</string>
+      <string>audio</string>
     </array>
     <key>UIRequiresFullScreen</key>
     <true/>

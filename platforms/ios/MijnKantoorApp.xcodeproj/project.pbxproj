@@ -473,7 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.mijnkantoorapp;
 				PRODUCT_NAME = MijnKantoorApp;
-				PROVISIONING_PROFILE = "18e734b2-0689-461b-b1b5-0821f25ecae4";
+				PROVISIONING_PROFILE = "7bd41a5c-25ca-4c24-9b0f-50204dca2d8c";
 				PROVISIONING_PROFILE_SPECIFIER = "MijnKantoorApp Distribution";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
