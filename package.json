@@ -1,0 +1,21 @@
+{
+    "name": "com.bettyblocks.mijnkantoorapp",
+    "version": "1.0.3",
+    "displayName": "MijnKantoor App",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-inappbrowser": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-inappbrowser": "^1.7.1",
+        "cordova-plugin-whitelist": "1"
+    }
+}
